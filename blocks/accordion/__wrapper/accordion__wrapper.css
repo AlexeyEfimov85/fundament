@@ -1,0 +1,17 @@
+.accordion__wrapper {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1190px) {
+    .accordion__wrapper {
+        gap: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .accordion__wrapper{
+        gap: 16px;
+    }
+}

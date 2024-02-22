@@ -1,0 +1,18 @@
+.reasons__number {
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 65px;
+    color: #000013;
+    position: relative;
+    display: block;
+}
+
+.reasons__number::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    background-image: url('../../../images/number__decor.svg');
+    width: 62px;
+    height: 62px;
+}

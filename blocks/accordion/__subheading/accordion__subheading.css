@@ -1,0 +1,21 @@
+.accordion__subheading {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    width: 367px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .accordion__subheading {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #000000;
+        width: 255px;
+    }
+}

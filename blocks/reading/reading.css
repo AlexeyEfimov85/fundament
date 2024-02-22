@@ -1,0 +1,15 @@
+.reading {
+    padding: 100px 0 120px 0;
+}
+
+@media screen and (max-width: 1190px) {
+    .reading {
+        padding: 24px 0 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reading {
+        padding: 8px 0 80px 0;
+    }
+}

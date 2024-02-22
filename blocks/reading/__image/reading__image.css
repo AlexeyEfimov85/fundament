@@ -1,0 +1,23 @@
+.reading__image {
+    background-image: url('../../../images/reading_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 575px;
+    height: 392px;
+}
+
+@media screen and (max-width: 1190px) {
+    .reading__image {
+        background-image: url('../../../images/reading_banner.png');
+        width: 688px;
+        height: 392px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reading__image {
+        background-image: url('../../../images/reading_banner.png');
+        width: 343px;
+        height: 212px;
+    }
+}

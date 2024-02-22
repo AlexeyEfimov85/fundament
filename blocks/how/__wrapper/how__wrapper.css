@@ -1,0 +1,16 @@
+.how__wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+@media screen and (max-width: 1190px) {
+    .how__wrapper {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .how__wrapper {
+        flex-direction: column-reverse;
+    }
+}

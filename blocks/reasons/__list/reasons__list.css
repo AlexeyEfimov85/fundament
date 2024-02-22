@@ -1,0 +1,25 @@
+.reasons__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 77px;
+    width: 100%;
+    padding: 0;
+    margin-top: 25px;
+    
+}
+
+@media screen and (max-width: 1190px) {
+    .reasons__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 32px;
+        width: 688px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reasons__list {
+        width: 340px;
+    }
+}

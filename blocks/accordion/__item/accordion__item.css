@@ -1,0 +1,24 @@
+.accordion__item  {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+    box-sizing: border-box;
+    box-shadow: 0px 24px 48px 0px #E6EBF566, 0px 1px 4px 0px #E3EBFC;
+    min-height: 108px;
+    padding-left: 24px;
+  }
+
+  @media screen and (max-width: 1190px) {
+    .accordion__item  {
+        min-height: 112px;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .accordion__item  {
+        min-height: 63px;
+        padding-left: 12px;
+        padding-top: 20px;
+      }
+}

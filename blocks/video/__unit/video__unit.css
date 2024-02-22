@@ -1,0 +1,18 @@
+.video__unit {
+    width: 371px;
+    height: 212px;
+}
+
+@media screen and (max-width: 1190px) {
+    .video__unit {
+        width: 329px;
+        height: 212px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__unit {
+        width: 343px;
+        height: 212px;
+    }
+}

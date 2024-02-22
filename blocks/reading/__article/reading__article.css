@@ -1,0 +1,9 @@
+.reading__article {
+    width: 571px;
+}
+
+@media screen and (max-width: 1190px) {
+    .reading__article {
+        width: 100%;
+    }
+}
